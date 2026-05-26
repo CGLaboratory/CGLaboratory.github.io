@@ -1,0 +1,8 @@
+papers:
+  - id: paper-reading
+    title: Paper Reading Notes
+    type: Paper
+    status: Planned
+    color: teal
+    summary: Paper entries will link to PDF files and companion notes once the reading workflow is added.
+    pdf: ""

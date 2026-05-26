@@ -1,0 +1,90 @@
+{
+  "featuredChapters": [
+    {
+      "id": "rasterization",
+      "title": "Rasterization Primer",
+      "summary": "Pipeline, barycentric coordinates, depth",
+      "path": "content/series/graphics-foundations/rasterization.md"
+    },
+    {
+      "id": "linear-algebra",
+      "title": "Linear Algebra Review",
+      "summary": "Vectors, matrices, transformations",
+      "path": "content/series/graphics-foundations/linear-algebra.md"
+    }
+  ],
+  "series": [
+    {
+      "id": "graphics-foundations",
+      "title": "Computer Graphics Foundations",
+      "type": "Series Tutorial",
+      "status": "In progress",
+      "level": "Foundations",
+      "color": "blue",
+      "summary": "A structured path through the mathematical and algorithmic foundations of computer graphics.",
+      "topics": [
+        "Linear algebra",
+        "Rasterization",
+        "Projection",
+        "Visibility"
+      ],
+      "chapters": [
+        {
+          "id": "rasterization",
+          "title": "Rasterization Primer",
+          "summary": "Pipeline, barycentric coordinates, depth",
+          "path": "content/series/graphics-foundations/rasterization.md"
+        },
+        {
+          "id": "linear-algebra",
+          "title": "Linear Algebra Review",
+          "summary": "Vectors, matrices, transformations",
+          "path": "content/series/graphics-foundations/linear-algebra.md"
+        }
+      ]
+    },
+    {
+      "id": "rendering-equation",
+      "title": "Rendering Equation Notes",
+      "type": "Series Tutorial",
+      "status": "Planned",
+      "level": "Intermediate",
+      "color": "violet",
+      "summary": "A future series for radiometry, BRDFs, Monte Carlo estimators, and light transport.",
+      "topics": [
+        "Radiometry",
+        "BRDF",
+        "Monte Carlo",
+        "Path tracing"
+      ],
+      "chapters": []
+    },
+    {
+      "id": "geometry-processing",
+      "title": "Geometry Processing",
+      "type": "Series Tutorial",
+      "status": "Planned",
+      "level": "Intermediate",
+      "color": "rose",
+      "summary": "A future series for meshes, discrete differential operators, curves, and surface processing.",
+      "topics": [
+        "Meshes",
+        "Curves",
+        "Operators",
+        "Surfaces"
+      ],
+      "chapters": []
+    }
+  ],
+  "papers": [
+    {
+      "id": "paper-reading",
+      "title": "Paper Reading Notes",
+      "type": "Paper",
+      "status": "Planned",
+      "color": "teal",
+      "summary": "Paper entries will link to PDF files and companion notes once the reading workflow is added.",
+      "pdf": ""
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "defaultLanguage": "en",
+  "languageOrder": ["en", "zh"],
+  "languages": {
+    "en": {
+      "label": "EN",
+      "htmlLang": "en",
+      "meta": {
+        "title": "Computer Graphics Laboratory",
+        "description": "Computer Graphics Laboratory is a study organization for computer graphics notes, tutorials, and curated learning resources."
+      },
+      "brand": {
+        "ariaLabel": "Computer Graphics Laboratory home",
+        "title": "Computer Graphics Laboratory",
+        "subtitle": "Learning notes, algorithms, and resources"
+      },
+      "articles": {
+        "brandSubtitle": "Series tutorials and paper reading",
+        "meta": {
+          "title": "Series Articles · Computer Graphics Laboratory",
+          "description": "Series tutorials and paper reading entries from Computer Graphics Laboratory."
+        },
+        "nav": {
+          "home": "Home"
+        },
+        "hero": {
+          "eyebrow": "Library Shelf",
+          "title": "Series tutorials and paper reading",
+          "description": "Long-form graphics material is arranged like a compact academic shelf. Each volume represents a tutorial series or a paper reading collection."
+        },
+        "volumeCountLabel": "Volumes",
+        "summaryAriaLabel": "Catalog summary",
+        "shelfAriaLabel": "Series and papers",
+        "chaptersAriaLabel": "Chapters",
+        "groups": {
+          "series": "Series",
+          "paper": "Paper"
+        },
+        "status": {
+          "loadingCatalog": "Loading catalog...",
+          "selectChapter": "Select a chapter.",
+          "loadingChapter": "Loading chapter...",
+          "chapterError": "This chapter could not be loaded.",
+          "chaptersLater": "Chapters will be added as this volume is written.",
+          "openPdf": "Open the linked PDF from this entry.",
+          "pdfLater": "PDF link will be added later."
+        },
+        "footer": "Computer Graphics Laboratory · Long-form graphics learning material."
+      },
+      "reader": {
+        "backToShelf": "Back to shelf",
+        "meta": {
+          "title": "Reader · Computer Graphics Laboratory",
+          "description": "Computer Graphics Laboratory article reader."
+        },
+        "status": {
+          "loading": "Loading article...",
+          "error": "Article could not be loaded."
+        }
+      },
+      "contributePage": {
+        "backToHome": "Back to home",
+        "eyebrow": "Contribution Guide",
+        "title": "How to contribute",
+        "description": "The lab accepts clear, reviewable learning material through pull requests. This page records the writing and submission expectations.",
+        "links": {
+          "github": "GitHub",
+          "githubDescription": "Organization repository space",
+          "learn": "Learn",
+          "learnDescription": "Browse existing tutorial series"
+        },
+        "meta": {
+          "title": "Contribute · Computer Graphics Laboratory",
+          "description": "Contribution guide for Computer Graphics Laboratory."
+        },
+        "status": {
+          "loading": "Loading contribution guide...",
+          "error": "Contribution guide could not be loaded."
+        }
+      },
+      "language": {
+        "ariaLabel": "Language selector"
+      },
+      "nav": {
+        "home": "Home",
+        "articles": "Learn",
+        "blog": "Blog",
+        "contribute": "Contribute",
+        "github": "Github"
+      },
+      "hero": {
+        "eyebrow": "Open Study Organization",
+        "title": "Computer Graphics Laboratory",
+        "lead": "A public notebook for rendering, geometry, simulation, and visual computing. We collect rigorous tutorials, compact derivations, and practical references for learners who want to understand graphics from first principles.",
+        "primaryAction": "Explore series",
+        "secondaryAction": "View learning map"
+      },
+      "diagram": {
+        "ariaLabel": "Computer graphics diagram",
+        "title": "Projection diagram",
+        "description": "A triangle mesh, coordinate axes, projection rays, and a sampling grid."
+      },
+      "learningMap": {
+        "eyebrow": "Learning Map",
+        "title": "A lab organized around foundations, systems, and reading",
+        "description": "The homepage is a map of what the organization studies. Long-form material lives on the series shelf, while this page explains the structure of the lab.",
+        "items": [
+          {
+            "title": "Mathematical Grounding",
+            "description": "Linear algebra, probability, sampling, signals, and numerical conventions used by graphics algorithms."
+          },
+          {
+            "title": "Rendering Systems",
+            "description": "Rasterization, shading, visibility, light transport, and the architecture of real-time or offline renderers."
+          },
+          {
+            "title": "Geometry and Simulation",
+            "description": "Meshes, curves, transforms, physical motion, spatial data structures, and computational geometry."
+          },
+          {
+            "title": "Paper Reading",
+            "description": "Selected papers, reading notes, implementation trails, and links to source PDFs when available."
+          }
+        ]
+      },
+      "contentTypes": {
+        "eyebrow": "Content Formats",
+        "title": "Different artifacts for different kinds of learning",
+        "items": [
+          {
+            "label": "Series",
+            "title": "Book-like Tutorial Series",
+            "description": "Connected chapters written in Markdown and arranged as volumes on the series shelf.",
+            "accent": "blue"
+          },
+          {
+            "label": "Papers",
+            "title": "Paper Reading Collections",
+            "description": "Research papers will link to PDFs, companion summaries, and implementation notes.",
+            "accent": "teal"
+          },
+          {
+            "label": "Resources",
+            "title": "Curated Learning Resources",
+            "description": "Books, courses, articles, tools, and open-source projects selected for graphics study.",
+            "accent": "rose"
+          },
+          {
+            "label": "Experiments",
+            "title": "Future Interactive Demos",
+            "description": "WebGL, WebGPU, shader, and algorithm visualizations can be added after the foundation is stable.",
+            "accent": "violet"
+          }
+        ]
+      },
+      "contribute": {
+        "eyebrow": "Contributing",
+        "title": "Grow the lab through pull requests",
+        "description": "New tutorials can start as Markdown files. A good contribution includes a clear topic, references, derivations where useful, and runnable source files when the topic later needs a visual experiment.",
+        "steps": [
+          {
+            "title": "Write",
+            "description": "Create a focused Markdown note under the content directory."
+          },
+          {
+            "title": "Review",
+            "description": "Check formulas, terminology, references, and code formatting."
+          },
+          {
+            "title": "Open PR",
+            "description": "Submit the article and update the homepage note index."
+          }
+        ]
+      },
+      "markdown": {
+        "loading": "Loading note...",
+        "error": "This note could not be loaded. Open the site through a local server or GitHub Pages."
+      },
+      "footer": {
+        "text": "Computer Graphics Laboratory · Static site for graphics learning notes."
+      }
+    },
+    "zh": {
+      "label": "中文",
+      "htmlLang": "zh-CN",
+      "meta": {
+        "title": "Computer Graphics Laboratory",
+        "description": "Computer Graphics Laboratory 是一个面向计算机图形学教程、学习笔记和资源整理的学习组织。"
+      },
+      "brand": {
+        "ariaLabel": "Computer Graphics Laboratory 首页",
+        "title": "Computer Graphics Laboratory",
+        "subtitle": "学习笔记、算法与资源"
+      },
+      "articles": {
+        "brandSubtitle": "系列教程与论文阅读",
+        "meta": {
+          "title": "系列文章 · Computer Graphics Laboratory",
+          "description": "Computer Graphics Laboratory 的系列教程与论文阅读条目。"
+        },
+        "nav": {
+          "home": "首页"
+        },
+        "hero": {
+          "eyebrow": "书架",
+          "title": "系列教程与论文阅读",
+          "description": "长篇图形学学习材料以紧凑的学术书架形式组织。每本书代表一个教程系列或论文阅读集合。"
+        },
+        "volumeCountLabel": "书籍",
+        "summaryAriaLabel": "目录概览",
+        "shelfAriaLabel": "系列与论文",
+        "chaptersAriaLabel": "章节",
+        "groups": {
+          "series": "系列",
+          "paper": "论文"
+        },
+        "status": {
+          "loadingCatalog": "正在加载目录...",
+          "selectChapter": "请选择一个章节。",
+          "loadingChapter": "正在加载章节...",
+          "chapterError": "无法加载该章节。",
+          "chaptersLater": "该书籍的章节将在写作过程中逐步补充。",
+          "openPdf": "从该条目打开链接的 PDF。",
+          "pdfLater": "PDF 链接稍后添加。"
+        },
+        "footer": "Computer Graphics Laboratory · 长篇图形学学习材料。"
+      },
+      "reader": {
+        "backToShelf": "返回书架",
+        "meta": {
+          "title": "阅读器 · Computer Graphics Laboratory",
+          "description": "Computer Graphics Laboratory 文章阅读器。"
+        },
+        "status": {
+          "loading": "正在加载文章...",
+          "error": "无法加载文章。"
+        }
+      },
+      "contributePage": {
+        "backToHome": "返回首页",
+        "eyebrow": "贡献须知",
+        "title": "如何参与贡献",
+        "description": "实验室通过 Pull Request 接收清晰、可审阅的学习材料。本页记录写作与提交要求。",
+        "links": {
+          "github": "GitHub",
+          "githubDescription": "组织仓库空间",
+          "learn": "学习",
+          "learnDescription": "浏览已有教程系列"
+        },
+        "meta": {
+          "title": "参与贡献 · Computer Graphics Laboratory",
+          "description": "Computer Graphics Laboratory 贡献须知。"
+        },
+        "status": {
+          "loading": "正在加载贡献须知...",
+          "error": "无法加载贡献须知。"
+        }
+      },
+      "language": {
+        "ariaLabel": "语言选择"
+      },
+      "nav": {
+        "home": "首页",
+        "articles": "学习",
+        "blog": "博客",
+        "contribute": "共建",
+        "github": "Github"
+      },
+      "hero": {
+        "eyebrow": "开放学习组织",
+        "title": "Computer Graphics Laboratory",
+        "lead": "一个面向渲染、几何、仿真与视觉计算的公开学习笔记库。我们整理严谨的教程、紧凑的推导和实用的参考资料，帮助学习者从第一性原理理解计算机图形学。",
+        "primaryAction": "浏览系列",
+        "secondaryAction": "查看学习地图"
+      },
+      "diagram": {
+        "ariaLabel": "计算机图形学示意图",
+        "title": "投影示意图",
+        "description": "三角网格、坐标轴、投影射线和采样网格。"
+      },
+      "learningMap": {
+        "eyebrow": "学习地图",
+        "title": "围绕基础、系统与论文阅读组织的实验室",
+        "description": "主页用于说明这个组织研究什么。长篇内容放在系列书架中，而这里展示实验室的学习结构。",
+        "items": [
+          {
+            "title": "数学基础",
+            "description": "线性代数、概率、采样、信号和图形学算法中的数值约定。"
+          },
+          {
+            "title": "渲染系统",
+            "description": "光栅化、着色、可见性、光传输，以及实时或离线渲染器的架构。"
+          },
+          {
+            "title": "几何与仿真",
+            "description": "网格、曲线、变换、物理运动、空间数据结构和计算几何。"
+          },
+          {
+            "title": "论文阅读",
+            "description": "精选论文、阅读笔记、实现记录，以及未来可链接的 PDF 原文。"
+          }
+        ]
+      },
+      "contentTypes": {
+        "eyebrow": "内容形式",
+        "title": "用不同载体承载不同类型的学习",
+        "items": [
+          {
+            "label": "系列",
+            "title": "像书一样组织的教程系列",
+            "description": "使用 Markdown 编写连续章节，并以书架中的“书籍”形式组织。",
+            "accent": "blue"
+          },
+          {
+            "label": "论文",
+            "title": "论文阅读集合",
+            "description": "论文条目未来会链接 PDF、配套摘要和实现笔记。",
+            "accent": "teal"
+          },
+          {
+            "label": "资源",
+            "title": "精选学习资源",
+            "description": "整理适合图形学学习的书籍、课程、文章、工具和开源项目。",
+            "accent": "rose"
+          },
+          {
+            "label": "实验",
+            "title": "未来的交互式演示",
+            "description": "基础稳定后，可以继续加入 WebGL、WebGPU、Shader 和算法可视化。",
+            "accent": "violet"
+          }
+        ]
+      },
+      "contribute": {
+        "eyebrow": "参与共建",
+        "title": "通过 Pull Request 扩展实验室内容",
+        "description": "新的教程可以从一个 Markdown 文件开始。好的投稿应该包含清晰的主题、参考资料、必要的推导，以及在后续需要可视化实验时可复用的源码。",
+        "steps": [
+          {
+            "title": "撰写",
+            "description": "在内容目录下创建一篇主题明确的 Markdown 笔记。"
+          },
+          {
+            "title": "校对",
+            "description": "检查公式、术语、参考资料和代码格式。"
+          },
+          {
+            "title": "提交 PR",
+            "description": "提交文章，并更新首页中的笔记索引。"
+          }
+        ]
+      },
+      "markdown": {
+        "loading": "正在加载笔记...",
+        "error": "无法加载该笔记。请通过本地静态服务器或 GitHub Pages 打开网站。"
+      },
+      "footer": {
+        "text": "Computer Graphics Laboratory · 用于图形学学习笔记的静态网站。"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+name: Build library data
+
+on:
+  push:
+    paths:
+      - "content/**"
+      - "scripts/build-library.js"
+      - ".github/workflows/build-library.yml"
+  pull_request:
+    paths:
+      - "content/**"
+      - "scripts/build-library.js"
+      - ".github/workflows/build-library.yml"
+
+jobs:
+  build-library:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: node scripts/build-library.js
+      - name: Ensure generated data is committed
+        run: git diff --exit-code data/library.json
